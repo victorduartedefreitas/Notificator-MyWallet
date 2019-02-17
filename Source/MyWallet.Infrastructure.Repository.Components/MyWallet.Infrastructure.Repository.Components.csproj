@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Notificator" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyWallet.Business\MyWallet.Business.csproj" />
+    <ProjectReference Include="..\MyWallet.Infrastructure.Data\MyWallet.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\MyWallet.Infrastructure.Repository\MyWallet.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
